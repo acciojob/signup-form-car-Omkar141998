@@ -9,10 +9,11 @@
 <body>
 	<form action="" method="post">
 		<label for="name" name="name" id="#name">Name*</label>
-		<input type="text" name="#name" id="#name" required>
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required>
 		<br><br>
-		<label for="email" name="email" id="email">Email*</label>
-		<input type="email" nmae="#email" id="#email" required>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
 		<br><br>
 		<label for="gender">Gender*</label>
 		<input type="radio" name="gender" value="Male" required/>
@@ -20,24 +21,23 @@
 	    <input type="radio" name="gender" value="Female" required/>
 	    <label for="radio" name="gender">Female</label>
 	    <br><br>
-		<label for="Car Brands">
-			Car Brands*
-		<select name="cars" id="#cars" required>
-            <option value="brands">BMW</option>
-			<option value="brands">Audi</option>
-			<option value="brands">Mercedez</option>
+		<label for="cars">Car Brand:</label>
+		<select name="cars" id="cars">
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
 		</select>
-	  </label>
-	<br><br>
-	        <label for="age" name="age">Age*</label>
-			<input type="number" name="#age" id="#age" value="age" required>
-			<br><br>
-			<label for="dob" name="dob">DOB*</label>
-			<input type="dob" nmae="#dob" id="#dob" required>
-			<br><br>
-			<label for="password" name="password">Password*</label>
-			<input type="password" name="#password" id="#password" required>
-			<br><br>
+		<br><br>
+	
+		<label for="age">Age:</label>
+		<input type="text" name="age" id="age" required>
+		<br><br>
+		<label for="dob">Date of Purchase:</label>
+		<input type="dob" name="dop" id="dob" required>
+		<br><br>
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" required>
+		<br><br>
 			<button type="submit" name="submit button">Submit button</button>
 
 	</form>
